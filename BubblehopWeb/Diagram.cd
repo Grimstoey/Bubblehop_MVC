@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BubblehopWeb.Models.User" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAABAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BubblehopWeb.Models.TravelPlan" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAgAAAAAQAAAAggAAABAAAEAAAAAEAAAAA=</HashCode>
+      <FileName>Models\TravelPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BubblehopWeb.Models.Destination" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAIQAAAAAAAAAAAAAAgAAEAAAAA=</HashCode>
+      <FileName>Models\Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BubblehopWeb.Models.UserTravelPlan" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAAAQAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\UserTravelPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

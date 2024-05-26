@@ -2,7 +2,7 @@ using BubblehopWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace BubblehopWeb.Controllers
+namespace BubblehopWeb.Areas.User.Controllers
 {
     public class HomeController : Controller
     {

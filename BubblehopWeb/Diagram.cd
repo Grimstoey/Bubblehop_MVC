@@ -28,5 +28,20 @@
       <FileName>Models\UserTravelPlan.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="BubblehopWeb.DataAccess.ManageDataMethod.ManageData&lt;T&gt;" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAgAQgAAAAAAAAAAAAgAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\ManageDataMethod\ManageData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BubblehopWeb.DataAccess.ManageDataMethod.Interface.IManageData&lt;T&gt;" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAQgAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\ManageDataMethod\Interface\IManageData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

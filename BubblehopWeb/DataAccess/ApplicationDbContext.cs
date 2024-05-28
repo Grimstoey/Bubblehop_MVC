@@ -1,7 +1,7 @@
 ﻿using BubblehopWeb.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BubblehopWeb.Data
+namespace BubblehopWeb.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {
@@ -20,19 +20,23 @@ namespace BubblehopWeb.Data
             base.OnModelCreating(modelBuilder);
 
 
-            //Many-To-Many
+            // Configure many-to-many relationship for UserTravelPlan
             modelBuilder.Entity<UserTravelPlan>()
                 .HasKey(utp => new { utp.UserId, utp.TravelPlanId });
+
 
             modelBuilder.Entity<UserTravelPlan>()
                 .HasOne(utp => utp.User)
                 .WithMany(many => many.UserTravelPlans)
-                .HasForeignKey(fKey => fKey.TravelPlanId);
+                .HasForeignKey(fKey => fKey.UserId)
+                .OnDelete(DeleteBehavior.Restrict); // Disable cascade delete ปิดการใช้งานการลบแบบเรียงซ้อน
+
 
             modelBuilder.Entity<UserTravelPlan>()
                 .HasOne(utp => utp.TravelPlan)
                 .WithMany(many => many.UserTravelPlans)
-                .HasForeignKey(fKey => fKey.UserId);
+                .HasForeignKey(fKey => fKey.TravelPlanId)
+                .OnDelete(DeleteBehavior.Restrict); // Disable cascade delete
         }
     }
 }

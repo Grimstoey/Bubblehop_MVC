@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.InteropServices.Marshalling;
 
 namespace BubblehopWeb.Models
 {
@@ -8,10 +9,13 @@ namespace BubblehopWeb.Models
         [Key]
         public int Id { get; set; }
         
-        [Required]
+        [Required(ErrorMessage = "Please enter the name of your trip")]
+        [Display(Name = "Trip name")]
         public string PlanName { get; set; }
 
+        [Display(Name = "Start Date")]
         public DateTime StartDate { get; set; }
+        [Display(Name = "End Date")]
         public DateTime EndDate { get; set; }
 
         public string? Description { get; set; }
@@ -20,7 +24,7 @@ namespace BubblehopWeb.Models
         [ForeignKey("UserId")]
         public User User { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter your destination")]
         public ICollection<Destination> Destinations { get; set; }
         public ICollection<UserTravelPlan>? UserTravelPlans { get; set; }
     }

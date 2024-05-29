@@ -1,7 +1,10 @@
-using BubblehopWeb.DataAccess;
+﻿using BubblehopWeb.DataAccess;
+using BubblehopWeb.DataAccess.DataRepository.RepositoryInterface;
+using BubblehopWeb.DataAccess.DataRepository;
 using BubblehopWeb.DataAccess.ManageDataMethod;
 using BubblehopWeb.DataAccess.ManageDataMethod.Interface;
 using Microsoft.EntityFrameworkCore;
+using BubblehopWeb.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,7 @@ builder.Services.AddControllersWithViews();
 // Add DbContext service
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); //ฉีด UnitOfWork เข้าไปใน IUnitOfWork
 
 
 var app = builder.Build();

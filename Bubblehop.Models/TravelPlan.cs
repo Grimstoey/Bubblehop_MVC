@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.InteropServices.Marshalling;
 
-namespace BubblehopWeb.Models
+namespace Bubblehop.Models
 {
     public class TravelPlan
     {

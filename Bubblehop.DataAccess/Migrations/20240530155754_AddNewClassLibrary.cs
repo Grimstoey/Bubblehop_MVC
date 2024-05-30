@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BubblehopWeb.Migrations
+namespace Bubblehop.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class AddInitialCreate : Migration
+    public partial class AddNewClassLibrary : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

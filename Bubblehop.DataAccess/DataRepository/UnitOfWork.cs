@@ -1,6 +1,8 @@
-﻿using BubblehopWeb.DataAccess.DataRepository.RepositoryInterface;
+﻿using Bubblehop.DataAccess.DataRepository.RepositoryInterface;
 
-namespace BubblehopWeb.DataAccess.DataRepository
+
+
+namespace Bubblehop.DataAccess.DataRepository
 {
     public class UnitOfWork : IUnitOfWork
     {

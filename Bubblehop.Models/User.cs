@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BubblehopWeb.Models
+namespace Bubblehop.Models
 {
     public class User
     {

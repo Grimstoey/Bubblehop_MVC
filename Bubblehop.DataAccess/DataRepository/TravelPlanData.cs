@@ -1,8 +1,12 @@
-﻿using BubblehopWeb.DataAccess.DataRepository.RepositoryInterface;
+﻿using Bubblehop.DataAccess.DataRepository.RepositoryInterface;
+using Bubblehop.DataAccess.ManageDataMethod;
+using Bubblehop.Models;
+using BubblehopWeb.DataAccess;
 using BubblehopWeb.DataAccess.ManageDataMethod;
-using BubblehopWeb.Models;
 
-namespace BubblehopWeb.DataAccess.DataRepository
+
+
+namespace Bubblehop.DataAccess.DataRepository
 {
     public class TravelPlanData : ManageData<TravelPlan>, ITravelPlanData
     {

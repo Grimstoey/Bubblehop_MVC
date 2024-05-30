@@ -1,10 +1,10 @@
 ﻿using BubblehopWeb.DataAccess;
-using BubblehopWeb.DataAccess.DataRepository.RepositoryInterface;
-using BubblehopWeb.DataAccess.DataRepository;
 using BubblehopWeb.DataAccess.ManageDataMethod;
 using BubblehopWeb.DataAccess.ManageDataMethod.Interface;
 using Microsoft.EntityFrameworkCore;
-using BubblehopWeb.Models;
+using Bubblehop.DataAccess;
+using Bubblehop.DataAccess.DataRepository.RepositoryInterface;
+using Bubblehop.DataAccess.DataRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 

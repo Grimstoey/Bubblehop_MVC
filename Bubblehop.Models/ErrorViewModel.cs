@@ -1,5 +1,5 @@
-namespace BubblehopWeb.Models
-{
+namespace Bubblehop.Models
+{ 
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }

@@ -1,7 +1,7 @@
-﻿using BubblehopWeb.Models;
+﻿using Bubblehop.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BubblehopWeb.DataAccess
+namespace Bubblehop.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {

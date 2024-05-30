@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BubblehopWeb.Models
+namespace Bubblehop.Models
 {
     public class Destination
     {

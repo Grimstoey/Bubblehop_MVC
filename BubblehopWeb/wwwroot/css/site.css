@@ -20,3 +20,91 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+
+/* Default styles for all buttons */
+.my-button {
+    background-color: #e75e8d; /* Pink background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+    /* Hover effect for all buttons */
+    .my-button:hover {
+        background-color: #fff; /* White background */
+        color: #ff5370; /* Pink text */
+    }
+
+
+/* Default styles for outline buttons */
+.my-outline-button-back {
+    background-color: transparent; /* Transparent background */
+    color: #e75e8d; /* Pink text */
+    border: 2px solid #e75e8d; /* Pink border */
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px 60px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+    /* Hover effect for outline buttons */
+    .my-outline-button-back:hover {
+        background-color: #e75e8d; /* Pink background */
+        color: #fff; /* White text */
+    }
+
+.my-add-button {
+    background-color: #e75e8d; /* Pink background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+    /* Hover effect for all buttons */
+    .my-add-button:hover {
+        background-color: #fff; /* White background */
+        color: #ff5370; /* Pink text */
+    }
+
+/* Container to hold buttons and apply flexbox */
+.my-button-container-flex-end {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 30px; /* Space between buttons */
+    padding: 10px; /* Padding around the container */
+}
+
+
+.my-heading h4 {
+    color: #e75e8d;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+    .my-heading h4 em {
+        color: #fff;
+        font-style: normal;
+    }
+
+
+.my-heading-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+    .my-heading-container h4 {
+        margin: 0; /* Remove default margin to align items better */
+        margin-right: 20px; /* Add some space between the text and the button */
+    }

@@ -1,6 +1,5 @@
-﻿using BubblehopWeb.DataAccess.DataRepository.RepositoryInterface;
-using BubblehopWeb.DataAccess.ManageDataMethod.Interface;
-using BubblehopWeb.Models;
+﻿using Bubblehop.DataAccess.DataRepository.RepositoryInterface;
+using Bubblehop.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BubblehopWeb.Areas.User.Controllers
@@ -14,6 +13,7 @@ namespace BubblehopWeb.Areas.User.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+
 
         public IActionResult Index()
         {

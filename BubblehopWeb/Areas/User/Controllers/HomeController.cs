@@ -1,4 +1,4 @@
-using BubblehopWeb.Models;
+using Bubblehop.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

@@ -1,4 +1,4 @@
-﻿namespace BubblehopWeb.DataAccess.DataRepository.RepositoryInterface
+﻿namespace Bubblehop.DataAccess.DataRepository.RepositoryInterface
 {
     public interface IUnitOfWork
     {

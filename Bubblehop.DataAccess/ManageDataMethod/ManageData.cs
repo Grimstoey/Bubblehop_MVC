@@ -1,7 +1,7 @@
 ﻿using BubblehopWeb.DataAccess.ManageDataMethod.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace BubblehopWeb.DataAccess.ManageDataMethod
+namespace Bubblehop.DataAccess.ManageDataMethod
 {
     public class ManageData<T> : IManageData<T> where T : class
     {
